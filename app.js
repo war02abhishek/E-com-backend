@@ -16,9 +16,9 @@ app.use(cookieParser());//()bohot jaruri hai mt bhulna
 
 //Config
 // dotenv.config({ path: "backend/config/config.env" });
-if (process.env.NODE_ENV !== "PRODUCTION") {
+// if (process.env.NODE_ENV !== "PRODUCTION") {
   dotenv.config({ path: "backend/config/config.env" });
-}
+// }
 
 // Route Imports
 import product from "./routes/productRoute.js"
